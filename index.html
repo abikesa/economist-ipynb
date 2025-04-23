@@ -1,13 +1,23 @@
+(war)=
+# Sus
+
 <style>
+
 .economist-article {
-  font-family: Georgia, serif !important;
+  font-family: Georgia, serif;
   font-size: 18px;
   line-height: 1.65;
   color: #121212;
-  background-color: #fff !important;
+  background-color: #ffffff;
   max-width: 720px;
   margin: 3rem auto;
   padding: 0 1rem;
+}
+
+.headline-wrap {
+  max-width: 560px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .economist-article h1 {
@@ -25,13 +35,13 @@
   line-height: 1.2;
 }
 
-.economist-article p {
-  margin: 1.2rem 0;
-}
-
 .economist-article .byline {
   font-weight: normal;
   margin: 1rem 0;
+}
+
+.economist-article p {
+  margin: 1.2rem 0;
 }
 
 .economist-article .lead-dropcap::first-letter {
@@ -42,40 +52,72 @@
   font-weight: normal;
 }
 
-  .economist-article img {
+.economist-article figure {
+  margin: 2rem 0;
+}
+
+.economist-article figcaption {
+  font-size: 0.85rem;
+  color: #666;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.economist-article footer {
+  color: #d6241d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 3rem;
+}
+
+.section-prefix {
+  color: #d6241d;
+  font-weight: normal;
+  font-size: 0.99rem;
+  /* No transform — keep author's casing */
+}
+
+.section-separator,
+.section-title {
+  color: #121212;
+  font-size: 0.99rem;
+  /* No transform — keep author's casing */
+}
+
+.section-label {
+  margin-bottom: 1rem;
+}
+
+.economist-article img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 1rem 0;
 }
 
-
-/* etc. — all your styles prefixed with .economist-article */
 </style>
 
+
 <div class="economist-article">
-  <!-- all your HTML goes here -->
-</div>
 
-<div class="section-label">
-  <span class="section-prefix">Business</span> 
-  <span class="section-separator"> | </span> 
-  <span class="section-title">The new atomic age</span>
-</div>
+  <div class="section-label">
+    <span class="section-prefix">Business</span> 
+    <span class="section-separator"> | </span> 
+    <span class="section-title">The new atomic age</span>
+  </div>
 
+  <div class="headline-wrap">
+    <h1>Peter Thiel doubles down on patriotism in the Trump era</h1>
+    <h2>Venture capital and the government are now brothers in arms</h2>
+  </div>
 
-<div class="headline-wrap">
-  <h1>Peter Thiel doubles down on patriotism in the Trump era</h1>
-  <h2>Venture capital and the government are now brothers in arms</h2>
-</div>
-
-
-<figure style="width: 400px;">
+  <figure style="width: 500px;">
     <img src="../../figures/peter-thiel.jpg" alt="Peter Thiel holding cash, on stage" style="width: 100%; height: auto;">
     <figcaption>Photograph: Getty Images</figcaption>
-</figure>
+  </figure>
 
-<p class="byline">Apr 20th 2025 | LOS ANGELES</p>
+  <p class="byline">Apr 20th 2025 | LOS ANGELES</p>
 
 <p class="lead-dropcap">PETER THIEL is obsessed with atoms. The prescient venture capitalist has said that the Manhattan Project, which created the first atomic bomb, epitomised how America’s government used to “get things done”. He has long argued that an excessive focus on “bits” (software) at the expense of “atoms” (hardware) has helped produce economic stagnation in America. In 2015 he wrote that the country needed “a new atomic age” to produce clean, abundant energy. A decade later he has friends at the top of President Donald Trump’s administration who share his vision. It is starting to fall into place.</p>
 
